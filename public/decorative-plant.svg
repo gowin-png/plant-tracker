@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Plant Pot -->
+  <path d="M160 352h192l32 128H128l32-128z" fill="#22C55E" fill-opacity="0.2"/>
+  
+  <!-- Main Stem -->
+  <path d="M256 352c0 0 0-64 0-128" stroke="#22C55E" stroke-width="16" stroke-linecap="round"/>
+  
+  <!-- Leaves -->
+  <path d="M256 224c0 0 -64-32 -96-96s0-96 48-96 48 64 48 96" fill="#22C55E" fill-opacity="0.6"/>
+  <path d="M256 224c0 0 64-32 96-96s0-96 -48-96 -48 64 -48 96" fill="#22C55E" fill-opacity="0.6"/>
+  
+  <!-- Small Leaves -->
+  <path d="M256 288c0 0 -32-16 -48-48s0-48 24-48 24 32 24 48" fill="#22C55E" fill-opacity="0.4"/>
+  <path d="M256 288c0 0 32-16 48-48s0-48 -24-48 -24 32 -24 48" fill="#22C55E" fill-opacity="0.4"/>
+  
+  <!-- Decorative Lines -->
+  <path d="M208 352c0 0 -16-32 -16-64" stroke="#22C55E" stroke-width="8" stroke-linecap="round" stroke-opacity="0.3"/>
+  <path d="M304 352c0 0 16-32 16-64" stroke="#22C55E" stroke-width="8" stroke-linecap="round" stroke-opacity="0.3"/>
+</svg> 

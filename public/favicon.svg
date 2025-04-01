@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="16" cy="16" r="16" fill="#22C55E" fill-opacity="0.1"/>
+  
+  <!-- Leaf Design -->
+  <path d="M16 4C12 4 8 8 8 12C8 16 12 20 16 20C20 20 24 16 24 12C24 8 20 4 16 4Z" 
+        fill="#22C55E" 
+        stroke="#22C55E" 
+        stroke-width="2" 
+        stroke-linecap="round" 
+        stroke-linejoin="round">
+    <animate attributeName="d" 
+             dur="3s" 
+             repeatCount="indefinite"
+             values="M16 4C12 4 8 8 8 12C8 16 12 20 16 20C20 20 24 16 24 12C24 8 20 4 16 4Z;
+                     M16 4C12 4 8 8 8 12C8 16 12 20 16 20C20 20 24 16 24 12C24 8 20 4 16 4Z;
+                     M16 4C12 4 8 8 8 12C8 16 12 20 16 20C20 20 24 16 24 12C24 8 20 4 16 4Z;
+                     M16 4C12 4 8 8 8 12C8 16 12 20 16 20C20 20 24 16 24 12C24 8 20 4 16 4Z"/>
+  </path>
+  
+  <!-- Leaf Veins -->
+  <path d="M16 8V16M12 12H20" 
+        stroke="#22C55E" 
+        stroke-width="2" 
+        stroke-linecap="round" 
+        stroke-linejoin="round">
+    <animate attributeName="opacity" 
+             values="0.5;1;0.5" 
+             dur="3s" 
+             repeatCount="indefinite"/>
+  </path>
+</svg> 
